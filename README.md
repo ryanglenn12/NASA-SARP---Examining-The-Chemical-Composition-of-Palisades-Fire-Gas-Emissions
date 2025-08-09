@@ -1,20 +1,9 @@
 # Project Title
-<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>Here you can put a brief description (approximately 2-3 sentence) of your time with the [NASA Student Airborne Research Program (SARP)](https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/). You might mention the year of your program or that you flew on a NASA aircraft. You could also mention which group you were in as well as your graduate or faculty mentors. All this text is optional, but it's a good way to orient someone that comes to your repository wondering what it is they are looking at. A one sentence plain language description of your project can also be a great benefit.
-
+<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>HThis is my NASA SARP summer 2025 project! In this program, I flew on NASA aircraft and collected my own data on trace gas and greenhouse gas concentrations. Under the Whole Air Sampling group with Dr. Donald Blake and Oluwaseun Moses Akinola, I was able to investigate the VOC composition of gases emitted from the destructive Palisades wildfire and examine the extent to which certain VOCs contributed to tropospheric ozone formation. Feel free to reach out if you have any questions, comments, or really anything - enjoy! 
 
 ## Abstract
-This is a great place to put your SARP presentation abstract.
+Wildland-urban-interface (WUI) fires in the US are increasing in frequency and intensity with disproportionately large impacts on air quality and human health. The 2025 Palisades Fire alone destroyed nearly 7,000 structures and displaced over 30,000 people. Despite their significance, they remain understudied compared to wildland fires, especially in regard to emission composition, evolution, and ozone formation potential. Here we analyze trace gases and volatile organic compounds (VOCs) collected via air canisters during the Palisades Fire and use the Framework for 0-D Atmospheric Modeling (FOAM) box model to simulate their evolution. Gas chromatography-mass spectrometry reveals high daytime VOC concentrations despite the increase of the boundary layer. C1-C4 oxygenates exhibited by far the highest reactivity and concentrations, accompanied by alkanes, alkenes, aromatics, biogenics, and chlorinated compounds indicative of the combustion of anthropogenic materials. Using the sampling data to constrain the FOAM box model, we characterize the regime as primarily VOC-limited and identify acetaldehyde, acetone, and isoprene as key ozone precursors and nitric acid as the primary nitrogen oxide (NOx) sink. These findings suggest that targeted reductions in oxygenates will be most effective in mitigating ozone formation from WUI fire emissions. This study has significant implications for wildfire air quality management and highlights the need for further research comparing WUI and wildland fire emission chemistry. 
 
 ## About this template
 
-This template was generated as an example for how to format and upload project code to github. Remember that uploading your code can be an interative process - it doesn't have to be perfect the first time! First focus on getting your code online, then move onto progressively organizing the code. Once you reach the cleaning stage some things to look for include:
-
-- Make sure each chunk of code has a comment or markdown explanation of what is happening in the code
-- Delete code that isn't ever used. It can be hard (emotionally), but it helps the code you are using be more useful.
-- Break your project code into a few different notebooks by analysis step and name them starting with a number. For example: `01_preprocessing.ipynb`, `02_timeseries_analysis.ipynb` and `03_visualization.ipynb`.
-- Keep seperate folders for code and figures
-
-To get even deeper into code cleaning, check out the [Good Research Code Handbook](https://goodresearch.dev/index.html).
-
-Some notes:
-- If you are using satellite images as part of your analysis they may be too large to upload to github. In that case simply upload your code.
+This project has two main coding components: Excel data analysis from whole air samples, and MATLAB figures from running the FOAM (Framework for Zero-Dimensional Atmospheric Box Modeling) box model. 
